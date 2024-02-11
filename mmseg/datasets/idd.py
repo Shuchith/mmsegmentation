@@ -9,5 +9,9 @@ class ExampleDataset(BaseSegDataset):
         classes=('road', 'drivable fallback','sidewalk'),
         palette=[128, 64, 128], [244, 35, 232],[0, 0, 142])
 
-    def __init__(self, aeg1, arg2):
-        pass
+    def __init__(self,
+                 img_suffix='_leftImg8bit.png',
+                 seg_map_suffix='_road_mask.png',
+                 **kwargs) -> None:
+        super().__init__(
+            img_suffix=img_suffix, seg_map_suffix=seg_map_suffix, **kwargs)
