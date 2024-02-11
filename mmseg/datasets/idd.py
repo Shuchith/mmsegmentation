@@ -3,7 +3,7 @@ from .basesegdataset import BaseSegDataset
 
 
 @DATASETS.register_module()
-class ExampleDataset(BaseSegDataset):
+class iddDataset(BaseSegDataset):
 
     METAINFO = dict(
         classes=('road', 'drivable fallback','sidewalk'),
