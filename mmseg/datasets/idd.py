@@ -6,7 +6,7 @@ from .basesegdataset import BaseSegDataset
 class iddDataset(BaseSegDataset):
 
     METAINFO = dict(
-        classes=('road', 'drivable fallback','sidewalk'),
+        classes=('road','sidewalk', 'drivable fallback'),
         palette=[[128, 64, 128], [244, 35, 232],[0, 0, 142]])
 
     def __init__(self,
