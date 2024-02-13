@@ -471,7 +471,12 @@ def bdd100k_palette():
             [107, 142, 35], [152, 251, 152], [70, 130, 180], [220, 20, 60],
             [255, 0, 0], [0, 0, 142], [0, 0, 70], [0, 60, 100], [0, 80, 100],
             [0, 0, 230], [119, 11, 32]]
-
+def idd_classes():
+    """idd classes for external use"""
+    return ['road', 'drivable fallback','sidewalk']
+def idd_palette():
+    """idd palette for external use"""
+    return [[128, 64, 128], [244, 35, 232],[0, 0, 142]]
 
 dataset_aliases = {
     'cityscapes': ['cityscapes'],
