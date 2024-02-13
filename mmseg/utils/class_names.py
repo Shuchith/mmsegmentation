@@ -473,7 +473,7 @@ def bdd100k_palette():
             [0, 0, 230], [119, 11, 32]]
 def idd_classes():
     """idd classes for external use"""
-    return ['road', 'drivable fallback','sidewalk']
+    return ['road', 'sidewalk','drivable fallback']
 def idd_palette():
     """idd palette for external use"""
     return [[128, 64, 128], [244, 35, 232],[0, 0, 142]]
