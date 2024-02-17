@@ -476,7 +476,7 @@ def idd_classes():
     return ['road', 'sidewalk','drivable fallback']
 def idd_palette():
     """idd palette for external use"""
-    return [[128, 64, 128], [244, 35, 232],[0, 0, 142]]
+    return [[0, 255,0], [255,0,0],[0, 0,255]]
 
 dataset_aliases = {
     'cityscapes': ['cityscapes'],
