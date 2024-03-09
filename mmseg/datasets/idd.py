@@ -7,7 +7,7 @@ class iddDataset(BaseSegDataset):
 
     METAINFO = dict(
         classes=('road','sidewalk', 'drivable fallback','background'),
-        palette=[[0, 255,0], [255,0,0],[0, 0,255],[0,0,0])
+        palette=[[0, 255,0], [255,0,0],[0, 0,255],[0,0,0]]
 
     def __init__(self,
                  img_suffix='_leftImg8bit.png',
