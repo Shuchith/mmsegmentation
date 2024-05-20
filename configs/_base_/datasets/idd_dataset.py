@@ -1,5 +1,5 @@
 dataset_type = 'iddDataset'
-data_root = 'data/IDD_Segmentation/'
+data_root = 'data/idd-segmentation/IDD_Segmentation'
 crop_size = (512, 1024)
 train_pipeline = [
     dict(type='LoadImageFromFile'),
